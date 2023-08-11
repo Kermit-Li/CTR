@@ -11,6 +11,12 @@ Please add my **qq:235636351** to facilitate further communication, which is not
 - cmake 安装或者更新 (https://zhuanlan.zhihu.com/p/513871916)
 - ITK 配置 (https://blog.csdn.net/chen499093551/article/details/91528309)
 
+# 文件结构
+- data (文件夹)：存放原始dcm数据
+- nii (文件夹)：存放3维ct数据
+- drr (文件夹)：存放2维生成DRR数据
+- ctdrr (文件夹)：ct 转 drr 可执行文件
+    - ctdrr/ctdrr 
 # 功能示意
 
 ## CT to DRR
