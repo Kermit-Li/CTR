@@ -40,4 +40,8 @@ Please add my **qq:235636351** to facilitate further communication, which is not
         - CT转DRR: ./ctdrr/ctdrr -size 1024 1024 -rx 90 -ry 0 -rz 0 -t 10 10 -10 -o "./drr/2.png" "./nii/1.nii"
         - 上例中rx,ry,rz为旋转角度，-t后的3个参数为位移参数。-o后的为输出图像，最后文件为读取的三维文件。
 
-## 
+## 其他文件与训练网络模型有关
+- 数据处理流程: dcm_to_nii.ipynb
+    - eg: 利用1个CT序列文件生成DRR（1000）张全过程，具体见notebook
+- 网络训练流程: train.ipynb
+    - eg: 加载数据并划分数据集，训练网络，保存模型，具体见notebook
