@@ -1,7 +1,6 @@
 # CTR
 from ct to get drr and train a model to register 2d X-ray images
 
-编程代写，闲鱼搜索PickQStudio，选择优质代码，提供优质项目服务，加**qq:235636351**，了解更多。
 
 # 编译环境，语言和工具
 - Linux
